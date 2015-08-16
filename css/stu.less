@@ -1,0 +1,107 @@
+.center(@top:0,@bottom:0) {
+  margin: @top auto @bottom auto;
+}
+
+.change_color(@start:#b8c4cb,@end:#f6f6f8) {
+  filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=0, startColorStr=@start, endColorStr=@end); /*IE 6 7 8*/
+  background: -ms-linear-gradient(top, @start, @end); /* IE 10 */
+  background: -moz-linear-gradient(top, @start, @end); /*火狐*/
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(@start), to(@end)); /*谷歌*/
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(@start), to(@end)); /* Safari 4-5, Chrome 1-9*/
+  background: -webkit-linear-gradient(top, @start, @end); /*Safari5.1 Chrome 10+*/
+  background: -o-linear-gradient(top, @start, @end); /*Opera 11.10+*/
+}
+
+.border_radius(@pixel:4px) {
+  -moz-border-radius: @pixel; /* Gecko browsers */
+  -webkit-border-radius: @pixel; /* Webkit browsers */
+  border-radius: @pixel; /* W3C syntax */
+}
+
+.box_shadow(@x:1px,@y:1px,@color:#000,@r:1px,@fuzzy:1px) {
+  -webkit-box-shadow: @x @y @fuzzy @r @color;
+  -moz-box-shadow: @x @y @fuzzy @r @color;
+  box-shadow: @x @y @fuzzy @r @color;
+}
+
+.ellipsis() {
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+.opacity(@x:0.5) {
+  opacity: @x;
+  filter: Alpha(opacity=@x);
+}
+
+.font_family(@font:Arial) {
+  font-family: @font, "Hiragino Sans GB", "Microsoft YaHei",
+  "WenQuanYi Micro Hei", sans-serif;
+}
+
+*{
+  outline: none;
+}
+body{
+  margin: 0;
+}
+header{
+  width: 100%;
+  height:50px;
+  background-color: #00aae9;
+  .box_shadow(0,1px,75cff1);
+}
+.back{
+  height: 16px;
+  width: 15px;
+  position: absolute;
+  top:18px;
+  left: 14px;
+}
+h3{
+  color: #ffffff;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  text-align: center;
+  .font_family(Microsoft YaHei);
+  margin: 0;
+  padding-top: 14px;
+}
+.content{
+  .center();
+  width: 584/640*100%;
+  .font_family(Microsoft YaHei)
+}
+.content_img{
+  margin-top: 25px;
+  width: 100%;
+}
+.content_h{
+  color: #00aae9;
+}
+.content_sh{
+  color: #000;
+}
+.content_p{
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #9a9a9a;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+.net1{
+  height: 112px;
+  width: 112px;
+  float: right;
+}
+.clear{
+  overflow: hidden;
+}
+.content_span{
+  color: #f7a420;
+}
+.net2{
+  width: 100%;
+}

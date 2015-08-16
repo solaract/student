@@ -1,0 +1,148 @@
+*{
+    outline: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 20px;
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+    color: #000;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    color: #fff;
+}
+
+.lightblue{
+    color: #00aae9;
+}
+.blue{
+    color: #5677fc;
+}
+
+.orange{
+    color: #ff5822;
+}
+.yellowgreen{
+    color: #c5d42e;
+}
+.orangeyellow{
+    color:#ff9c0a;
+}
+
+.fbox{
+    overflow: hidden;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+}
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+.blue_bg{
+    background: #00aae9;
+}
+.orange_bg{
+    background: #ff5822;
+}
+
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont{
+    font-family:"iconfont" !important;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: top;
+    margin-right: 0.6rem;
+}
+
+header{
+    width: 32rem;
+    height: 5rem;
+    background: #00aae9;
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+
+}
+
+
+header i{
+    position: absolute;
+    left: 1.4rem;
+    top: 1.7rem;
+}
+
+header .title{
+    line-height: 5rem;
+}
+
+#content{
+    margin-top: 2.5rem;
+    padding: 0 1.5rem;
+}
+
+img{
+    margin-bottom:2rem;
+    border: 0;
+    width: 29rem;
+}
+
+.subTitle{
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.supTitle{
+    font-size: 1.6rem;
+}
+
+p{
+    line-height: 2.2rem;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.text_img{
+    text-align: center;
+    font-size: 1.6rem ;
+    margin-bottom: 1.4rem;
+}
+
+.groups_header{
+    margin-bottom: 2.5rem;
+    font-size: 1.8rem;
+}
+
+.ver_line{
+    width: 0.4rem;
+    height: 2rem;
+    display: inline-block;
+    margin-right: 0.6rem;
+    vertical-align: -0.2rem;
+}
+.groups .fr{
+    font-size: 1.3rem;
+}
+.groups .fl{
+    font-size: 1.6rem;
+}
+

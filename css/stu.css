@@ -1,0 +1,66 @@
+* {
+  outline: none;
+}
+body {
+  margin: 0;
+}
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #00aae9;
+  -webkit-box-shadow: 0 1px 1px 1px 75cff 1;
+  -moz-box-shadow: 0 1px 1px 1px 75cff 1;
+  box-shadow: 0 1px 1px 1px 75cff 1;
+}
+.back {
+  height: 16px;
+  width: 15px;
+  position: absolute;
+  top: 18px;
+  left: 14px;
+}
+h3 {
+  color: #ffffff;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  text-align: center;
+  font-family: Microsoft YaHei, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  margin: 0;
+  padding-top: 14px;
+}
+.content {
+  margin: 0 auto 0 auto;
+  width: 91.25%;
+  font-family: Microsoft YaHei, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+.content_img {
+  margin-top: 25px;
+  width: 100%;
+}
+.content_h {
+  color: #00aae9;
+}
+.content_sh {
+  color: #000;
+}
+.content_p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #9a9a9a;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+.net1 {
+  height: 112px;
+  width: 112px;
+  float: right;
+}
+.clear {
+  overflow: hidden;
+}
+.content_span {
+  color: #f7a420;
+}
+.net2 {
+  width: 100%;
+}

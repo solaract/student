@@ -1,0 +1,116 @@
+* {
+  outline: none;
+}
+body {
+  margin: 0;
+}
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #00aae9;
+  -webkit-box-shadow: 0 1px 1px 1px 75cff 1;
+  -moz-box-shadow: 0 1px 1px 1px 75cff 1;
+  box-shadow: 0 1px 1px 1px 75cff 1;
+}
+.back {
+  height: 16px;
+  width: 15px;
+  position: absolute;
+  top: 18px;
+  left: 14px;
+}
+h3 {
+  color: #ffffff;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  text-align: center;
+  font-family: Microsoft YaHei, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  margin: 0;
+  padding-top: 14px;
+}
+.li_stu {
+  color: #8bcef2;
+}
+.li_team {
+  color: #26b0eb;
+}
+.nav {
+  height: 45px;
+  width: 100%;
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+  -webkit-box-shadow: 0 1px 6px 1px #c2c2c2;
+  -moz-box-shadow: 0 1px 6px 1px #c2c2c2;
+  box-shadow: 0 1px 6px 1px #c2c2c2;
+  border-bottom: 1 solid #e4e4e4;
+}
+.nav li {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  float: left;
+  font-family: Microsoft YaHei, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  line-height: 45px;
+  font-size: 14px;
+}
+.nav_slide {
+  width: 50%;
+  height: 2px;
+  background-color: #00aae9;
+  clear: left;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  /* Firefox 4 */
+  -webkit-transition: all 0.5s;
+  /* Safari 和 Chrome */
+  -o-transition: all 0.5s;
+  /* Opera */
+}
+.content {
+  width: 100%;
+  -moz-transition: all 0.3s;
+  /* Firefox 4 */
+  -webkit-transition: all 0.3s;
+  /* Safari 和 Chrome */
+  -o-transition: all 0.3s;
+  /* Opera */
+}
+.content a {
+  color: #000;
+}
+.stu {
+  opacity: 0.3;
+}
+section {
+  height: 62px;
+  width: 100%;
+}
+.sec_img {
+  height: 35px;
+  width: 35px;
+  margin: 12px;
+  float: left;
+}
+.sec_rock {
+  display: block;
+  -moz-border-radius: 50px;
+  /* Gecko browsers */
+  -webkit-border-radius: 50px;
+  /* Webkit browsers */
+  border-radius: 50px;
+  /* W3C syntax */
+  border: 1px solid red;
+}
+h4 {
+  width: 76.09375%;
+  font-family: Microsoft YaHei, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  margin: 0;
+  padding: 18px 0 18px 4px;
+  float: left;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #ececec;
+}
+.stu {
+  display: none;
+}

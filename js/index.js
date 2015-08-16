@@ -16,7 +16,7 @@
         endX,
         resultX,
         default_d;
-    default_d = 25;
+    default_d = 10;
     if(window.getComputedStyle){
         distance = window.getComputedStyle(slide,null).width;
     }
@@ -113,12 +113,18 @@
         }
 
         resultX = endX-startX;
-    });
-    con_stu.addEventListener(end,function(){
         if(resultX > default_d){
             trans_team();
             resultX = 0;
+            document.onclick = null;
+            endX = startX;
         }
+    });
+    con_stu.addEventListener(end,function(){
+//        if(resultX > default_d){
+//            trans_team();
+//            resultX = 0;
+//        }
         document.onclick = null;
     });
     con_team.addEventListener(start,function(e){
@@ -144,12 +150,19 @@
             endX = touch_event.clientX;
         }
         resultX = startX - endX;
-    });
-    con_team.addEventListener(end,function(){
         if(resultX > default_d){
             trans_stu();
             resultX = 0;
+            document.onclick = null;
+            endX = startX;
         }
+
+    });
+    con_team.addEventListener(end,function(){
+//        if(resultX > default_d){
+//            trans_stu();
+//            resultX = 0;
+//        }
         document.onclick = null;
     });
 })();
